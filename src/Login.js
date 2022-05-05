@@ -26,17 +26,18 @@ class Login extends React.Component {
       <div className="Login">
         <form className="loginForm">
           <div className="loginForm-inputBlock">
-            <label for="email">Email</label>
+            <label htmlfor="email">Email</label>
             <input
               id="email"
               type="text"
               name="email"
               onChange={this.handleChangeInput}
+              value={this.state.email}
             />
           </div>
 
           <div className="loginForm-inputBlock">
-            <label for="password">Password</label>
+            <label htmlfor="password">Password</label>
             <input
               id="password"
               type="text"

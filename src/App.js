@@ -29,6 +29,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/shopping-list" element={<ShoppingList />} />
           <Route path="/connection" element={<Connection />} />
+          <Route path="/listDepartement" element={<ListDepartement />} />
         </Routes>
       </Box>
     </div>
