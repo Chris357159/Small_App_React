@@ -15,7 +15,7 @@ export default function App() {
   return (
     <div className="App">
       <h1 className="appTitle">App of Small Apps</h1>
-
+      <p>Christophe</p>
       <Chip
         icon={<HomeIcon />}
         label="Home"
