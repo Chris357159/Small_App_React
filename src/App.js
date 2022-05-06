@@ -5,6 +5,7 @@ import { Routes, Route, useNavigate } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
 import { Chip, Box } from "@mui/material";
 import Connection from "./Connection";
+import ListDepartement from "./ListDepartement";
 
 export default function App() {
   const navigate = useNavigate();

@@ -6,3 +6,7 @@
 .appTitle {
   text-align: center;
 }
+
+.listeDep {
+  list-style-type: none;
+}
