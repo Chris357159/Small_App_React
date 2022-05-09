@@ -6,6 +6,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import { Chip, Box } from "@mui/material";
 import Connection from "./Connection";
 import ListDepartement from "./ListDepartement";
+import MovieDataBase from "./MovieDataBase";
 
 export default function App() {
   const navigate = useNavigate();
@@ -17,7 +18,6 @@ export default function App() {
   return (
     <div className="App">
       <h1 className="appTitle">App of Small Apps</h1>
-      <p>Christophe</p>
       <Chip
         icon={<HomeIcon />}
         label="Home"
@@ -31,6 +31,7 @@ export default function App() {
           <Route path="/shopping-list" element={<ShoppingList />} />
           <Route path="/connection" element={<Connection />} />
           <Route path="/listDepartement" element={<ListDepartement />} />
+          <Route path="/movieDataBase" element={<MovieDataBase />} />
         </Routes>
       </Box>
     </div>
